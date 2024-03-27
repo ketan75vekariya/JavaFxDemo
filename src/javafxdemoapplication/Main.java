@@ -17,7 +17,9 @@ public class Main extends Application {
 		Button exit =new Button();
 		btn.setText("Say Hello World");
 		exit.setText("Cancle");
-		exit.setOnAction(e->System.exit(0)); 
+		exit.setOnAction(e->{
+			System.out.println("Closed the window");
+			System.exit(0);}); 
 		btn.setOnAction(new EventHandler<ActionEvent>(){
 			@Override
 			public void handle(ActionEvent event){
