@@ -1,1 +1,24 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*Css for button */
+#clickMe{
+	-fx-font-size: 30px;
+	-fx-background-color: rgbs(255 255 255 .80);
+	-fx-text-fill: blue;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold;
+}
+/*Label CSS */
+#myMessage{
+	-fx-font-size: 30px;
+	-fx-background-color: rgbs(255 255 255 .80);
+	-fx-text-fill: blue;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold;
+}
+
+/*CSS for whole scene */
+.root{
+	-fx-background-color: gray;
+}

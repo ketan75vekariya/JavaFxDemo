@@ -6,7 +6,7 @@
 
 <AnchorPane prefHeight="335.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxdemoapplication.MyController">
    <children>
-      <Button layoutX="190.0" layoutY="155.0" mnemonicParsing="false" onAction="#generateRandom" text="Click me" />
-      <Label fx:id="myMessage" layoutX="169.0" layoutY="69.0" prefHeight="57.0" prefWidth="94.0" textAlignment="CENTER" />
+      <Button fx:id="clickMe" layoutX="151.0" layoutY="168.0" mnemonicParsing="false" onAction="#generateRandom" text="Click me" />
+      <Label fx:id="myMessage" layoutX="150.0" layoutY="69.0" prefHeight="93.0" prefWidth="131.0" textAlignment="CENTER" />
    </children>
 </AnchorPane>

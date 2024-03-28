@@ -15,6 +15,7 @@ public class Main extends Application {
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("/javafxdemoapplication/Main.fxml"));
 			Scene scene = new Scene(root);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setTitle("Hello Wolrd");
 			primaryStage.setScene(scene);
 			primaryStage.show();
